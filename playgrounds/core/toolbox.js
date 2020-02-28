@@ -439,6 +439,7 @@ Blockly.Toolbox.prototype.setFlyoutScrollPos = function(pos) {
  * @param {boolean=} opt_shouldScroll Whether to scroll to the selected category. Defaults to true.
  */
 Blockly.Toolbox.prototype.setSelectedItem = function(item, opt_shouldScroll) {
+  console.log('测试修改效果')
   if (typeof opt_shouldScroll === 'undefined') {
     opt_shouldScroll = true;
   }
